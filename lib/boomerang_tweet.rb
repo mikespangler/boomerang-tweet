@@ -1,5 +1,6 @@
 require "boomerang_tweet/version"
+require "pry"
 
 module BoomerangTweet
-  binding.pry
+  require_relative "tweet"
 end
